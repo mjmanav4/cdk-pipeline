@@ -28,7 +28,7 @@ export class PipelineStack extends cdk.Stack {
                 })
             ]
         })
-        
+
 
         const  cdkBuildOutput = new Artifact("CdkBuildOutput")
         pipeline.addStage({
